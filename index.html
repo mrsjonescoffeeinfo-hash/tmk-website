@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TMK — all-day comfort food, made for takeaway." />
+    <title>TMK — All day, made your way</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="announcement">NOW SERVING BREAKFAST UNTIL 12:00 <span>•</span> PICKUP IN AS LITTLE AS 15 MINUTES</div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="TMK home"><img src="tmk-logo.png" alt="TMK" /></a>
+      <nav aria-label="Main navigation">
+        <a href="#menu">Menu</a><a href="#story">Our story</a><a href="#locations">Visit us</a>
+      </nav>
+      <button class="cart-trigger" id="cartTrigger" aria-label="Open your order">Order <span id="cartCount">0</span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR NEW ALL-DAY FAVOURITE</p>
+          <h1>Good food.<br /><em>Your rules.</em></h1>
+          <p class="intro">Pizza, burgers, souvlaki and your morning matcha — all made with big flavour and zero fuss.</p>
+          <div class="hero-actions"><a class="button button-red" href="#menu">Start an order <span>↗</span></a><a class="text-link" href="#story">Meet TMK <span>↓</span></a></div>
+        </div>
+        <div class="hero-art image-slot" data-image-slot="Hero food image">
+          <div class="sun"></div><div class="pizza-slice"><i></i><i></i><i></i></div><div class="burger-shape"><b></b><i></i><em></em><i></i><b></b></div>
+          <p>YOUR HERO FOOD PHOTO<br /><small>DROP IMAGE HERE LATER</small></p>
+          <div class="stamp">MADE<br />DAILY</div>
+        </div>
+      </section>
+
+      <section class="category-strip" aria-label="Menu categories">
+        <a href="#mains"><span class="cat-icon">◒</span> Mains</a><a href="#starters"><span class="cat-icon">≋</span> Starters</a><a href="#breakfast"><span class="cat-icon">☼</span> Breakfast</a><a href="#drinks"><span class="cat-icon">◌</span> Drinks</a><a href="#desserts"><span class="cat-icon">✦</span> Desserts</a><a href="#kids"><span class="cat-icon">★</span> Kids</a>
+      </section>
+
+      <section class="featured full-menu" id="menu">
+        <div class="section-heading"><div><p class="eyebrow">THE TMK MENU</p><h2>Choose your <em>favourite.</em></h2></div><p class="menu-note">Prices will be added with your final meal setup.</p></div>
+        <div class="meal-builder"><div><p class="eyebrow">MEALS &amp; COMBOS</p><h3>Build it your way.</h3><p>Choose a main, then select a <strong>Small</strong>, <strong>Medium</strong>, <strong>Large</strong>, or <strong>Share Combo</strong>.</p></div><ol><li><b>01</b> Pick a main</li><li><b>02</b> Choose a size</li><li><b>03</b> Add sides &amp; drink</li></ol></div>
+        <div class="menu-columns" id="mains"><article class="menu-section"><p class="eyebrow">01 / MAIN MEALS</p><h3>Burgers</h3><ul><li>Signature Burger <span>220 g / 240 g / 300 g</span></li><li>Hamburger <span>100 g</span></li><li>Cheeseburger <span>120 g</span></li><li>Double &amp; Triple Cheeseburger</li><li>Greek, Chicken &amp; Fish Burger</li></ul></article><article class="menu-section"><p class="eyebrow">02 / MAIN MEALS</p><h3>Pizzas &amp; pockets</h3><ul><li>Margherita Pizza</li><li>American Cheese &amp; Double Cheese Pizza</li><li>Fish, Chicken &amp; Pepperoni Pizza</li><li>Margherita Pocket</li><li>American Cheesy Pocket</li></ul></article><article class="menu-section"><p class="eyebrow">03 / MAIN MEALS</p><h3>Souvlaki</h3><ul><li>Plain Souvlaki</li><li>Cheese Souvlaki</li><li>Cypriot Souvlaki <span>lettuce &amp; tomato</span></li><li>Chicken Souvlaki <span>lettuce &amp; tomato</span></li></ul></article></div>
+        <div class="menu-columns secondary-menu" id="starters"><article class="menu-section"><p class="eyebrow">04 / SIDES</p><h3>Starters</h3><ul><li>Potato Chips <span>small / medium / large</span></li><li>Mozzarella Sticks</li><li>Chicken Bites <span>small / medium / large</span></li><li>Side Salad</li><li>Barbecue, Ketchup, Mayonnaise &amp; Special Sauce</li></ul></article><article class="menu-section" id="breakfast"><p class="eyebrow">05 / MORNING</p><h3>Breakfast</h3><ul><li>Eggs &amp; Bacon Bagel</li><li>Sausage &amp; Egg Bagel</li><li>Egg Bagel &amp; Cyprus Bagel</li><li>Hash Brown, Sausage Roll &amp; Halloumi Pie</li><li>Chocolate, Honey or Strawberry Pancakes</li></ul></article><article class="menu-section" id="kids"><p class="eyebrow">06 / LITTLE ONES</p><h3>Kids menu</h3><ul><li>Margherita Meal</li><li>Hamburger Meal</li><li>Cheeseburger Meal</li><li>American Cheese Pizza Meal</li><li>Fries, Chicken Bites &amp; Mozzarella Sticks</li></ul></article></div>
+        <div class="menu-columns secondary-menu" id="drinks"><article class="menu-section"><p class="eyebrow">07 / HOT</p><h3>Coffee &amp; tea</h3><ul><li>Espresso, Cappuccino &amp; Flat White</li><li>Americano &amp; Latte</li><li>Tea &amp; Cyprus Coffee</li></ul></article><article class="menu-section"><p class="eyebrow">08 / COLD</p><h3>Cold drinks</h3><ul><li>Coca-Cola, Coke Zero, Fanta, Sprite &amp; Dr Pepper</li><li>Orange, Apple &amp; Peach Juice</li><li>Green, Yellow, Red &amp; Purple Smoothies</li><li>Coffee &amp; Vanilla Milkshakes</li></ul></article><article class="menu-section"><p class="eyebrow">09 / MATCHA</p><h3>Matcha</h3><ul><li>Vanilla, Oat Milk &amp; Coconut Matcha</li><li>Frozen Coconut, Oat &amp; Vanilla Matcha</li></ul></article></div>
+        <div class="menu-columns secondary-menu" id="desserts"><article class="menu-section"><p class="eyebrow">10 / SWEET</p><h3>Desserts</h3><ul><li>Vanilla Ice Cream &amp; Caramel Pops</li><li>Apple Pie, Mahalepi &amp; Rizogalo</li><li>Fried Mini Calzone <span>ricotta with strawberry, caramel or chocolate</span></li></ul></article><article class="menu-section"><p class="eyebrow">11 / FRESH</p><h3>Salads</h3><ul><li>Plain Leaf Salad with Cherry Tomato</li><li>Chicken Salad <span>iceberg with chicken bites</span></li><li>Ready-packaged dressings</li></ul></article><div class="menu-photo image-slot"><p>YOUR BESTSELLER<br />PHOTO HERE</p><div class="mini-pizza"></div></div></div>
+      </section>
+
+      <section class="menu-cta">
+        <div class="menu-cta-art image-slot"><p>YOUR FAVOURITE<br />PRODUCT PHOTO</p><div class="round-plate"></div></div>
+          <div class="menu-cta-copy"><p class="eyebrow">TAKEAWAY, YOUR WAY</p><h2>Pick it up.<br /><em>Or Wolt it.</em></h2><p>Order straight from TMK for quick collection, or choose Wolt delivery at checkout. No app hopping required.</p><div class="hero-actions"><button class="button button-red" id="orderNow">Order takeaway <span>↗</span></button><button class="button button-outline" id="woltButton">Order with Wolt <span>↗</span></button></div></div>
+      </section>
+
+      <section class="story" id="story"><div><p class="eyebrow">OUR TABLE IS YOUR TABLE</p><h2>Big flavour, no <em>pretence.</em></h2></div><p>We believe the best meals are uncomplicated: a properly crisp slice, a juicy burger, coffee worth leaving home for. TMK brings your favourites together under one very welcoming roof.</p></section>
+
+      <section class="newsletter" id="locations"><div><p class="eyebrow">FIRST BITE</p><h2>Get the good news.</h2><p>New drops, opening dates and delicious little surprises.</p></div><form id="newsletterForm"><label class="sr-only" for="email">Your email</label><input id="email" type="email" placeholder="Your email address" required /><button class="button button-red">Sign me up <span>↗</span></button></form></section>
+    </main>
+
+    <footer><a class="brand" href="#top"><img src="tmk-logo.png" alt="TMK" /></a><p>ALL DAY. EVERY DAY. MADE FOR YOU.</p><div><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Contact</a></div></footer>
+
+    <aside class="cart-panel" id="cartPanel" aria-hidden="true"><div class="cart-head"><h2>Your order</h2><button id="closeCart" aria-label="Close order">×</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your favourites are waiting.</p></div><div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cartTotal">€0.00</strong></div><button class="button button-red full" id="checkout">Continue to checkout <span>→</span></button><button class="wolt-mini" id="cartWolt">Prefer delivery? Order via Wolt ↗</button></div></aside><div class="overlay" id="overlay"></div>
+    <dialog id="woltDialog"><button class="dialog-close" id="closeDialog">×</button><p class="eyebrow">WOLT DELIVERY</p><h2>Almost there.</h2><p>Connect this button to your Wolt partner ordering link when your account is ready. Your customer will then go directly to your Wolt menu without searching for it.</p><a class="button button-red full" href="#">Add your Wolt link here <span>↗</span></a></dialog>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
