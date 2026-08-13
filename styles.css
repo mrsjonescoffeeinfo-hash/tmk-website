@@ -9,3 +9,9 @@ h1,h2,h3,.eyebrow,.announcement,.button,.cart-trigger,.category-strip a,.stamp{t
 h1,h2{line-height:.92}
 
 .meal-builder h3,.menu-section h3{font-family:var(--tmk-display);font-weight:900;letter-spacing:.015em;text-transform:uppercase}
+
+
+/* Cleaner logo-family typography for compact UI text */
+:root{--tmk-ui:'Arial Black',Arial,sans-serif}
+.button,.cart-trigger,nav a,footer a,.category-strip a,.announcement,.eyebrow,.stamp,.meal-builder b{font-family:var(--tmk-ui);font-weight:900;letter-spacing:0;line-height:1.2}
+.button,.cart-trigger{font-size:12px}
