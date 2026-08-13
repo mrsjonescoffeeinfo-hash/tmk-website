@@ -7,3 +7,5 @@
 h1,h2,h3,.eyebrow,.announcement,nav a,footer a,.button,.cart-trigger,.category-strip a,.product-info h3,.stamp,.meal-builder b{font-family:var(--tmk-display);font-weight:900;letter-spacing:.015em}
 h1,h2,h3,.eyebrow,.announcement,.button,.cart-trigger,.category-strip a,.stamp{text-transform:uppercase}
 h1,h2{line-height:.92}
+
+.meal-builder h3,.menu-section h3{font-family:var(--tmk-display);font-weight:900;letter-spacing:.015em;text-transform:uppercase}
